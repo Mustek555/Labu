@@ -1,11 +1,11 @@
-package fd;
+package tht;
 
 public class Main {
     public static void main(String[] args) {
         Component component = new Composite();
-        component.addChild(new Leaf());
+        component.addGame(new Leaf());
         Component component2 = new Composite();
-        component2.addChild(component);
-        Client client = new Client(component2);
+        component2.addGame(component);
+        User user = new User(component2);
     }
 }

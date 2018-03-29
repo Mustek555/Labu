@@ -1,7 +1,7 @@
-package fd;
+package tht;
 
-public class Client {
-    public Client(Component component) {
+public class User {
+    public User(Component component) {
         System.out.println("Constructor in object " + this);
         component.operation();
     }

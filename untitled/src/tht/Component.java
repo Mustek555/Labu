@@ -1,7 +1,7 @@
-package fd;
+package tht;
 
 public abstract class Component {
-    void addChild(Component component) {
+    void addGame(Component component) {
         throw new UnsupportedOperationException();
     };
     abstract void operation();
